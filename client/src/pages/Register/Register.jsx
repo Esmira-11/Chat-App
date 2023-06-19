@@ -37,7 +37,7 @@ function Register() {
         );
         return false;
       } else if (password.length < 8) {
-        alertr(
+        alert(
           "Password should be equal or greater than 8 characters.",
         );
         return false;
